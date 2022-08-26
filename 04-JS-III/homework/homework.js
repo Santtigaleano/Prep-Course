@@ -260,7 +260,16 @@ function continueStatement(numero) {
   //array.push(numero)
   //retornar array
   //cont === 5 ===> continue
-  
+  var array= []
+  for(var a= 1; a <= 10; a++) {
+    if(a === 5){
+      continue;
+    }
+    numero = numero + 2;
+    array.push(numero)
+  }
+  return array;
+
 }
 
 
